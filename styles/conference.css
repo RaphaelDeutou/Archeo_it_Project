@@ -1,0 +1,13 @@
+.titre-1-c{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#card2{
+    margin: 20px 10px 20px 10px;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}

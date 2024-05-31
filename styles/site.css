@@ -1,0 +1,6 @@
+.trait{
+    border: 3px solid #4863A0;
+}
+.trait:hover{
+    border: 3px solid #A63D26;
+}

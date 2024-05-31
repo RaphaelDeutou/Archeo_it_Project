@@ -1,0 +1,24 @@
+.doc {
+    border-radius: 5px;
+    background-color: #4863A0;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+
+}
+
+.titre-1-c {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#card2 {
+    margin: 20px 10px 20px 10px;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}

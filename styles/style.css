@@ -1,0 +1,266 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.active {
+    color: #4863A0;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    color: #4863A0;
+    font-weight: bolder;
+}
+.log_in {
+    border-radius: 5px;
+    background-color: #4863A0;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+
+}
+
+.titre-banner {
+    position: absolute;
+    left: 10%;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+#block-2,
+#block4 {
+    margin-top: 30px;
+    text-align: justify;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.titre-1,
+.titre-2,
+.titre-3 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.marqueur {
+    color: #4863A0;
+}
+
+/* Nos activites */
+#block-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fafafa;
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+
+}
+
+#c {
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+.t-activite{
+    text-align: initial;
+}
+
+/* Nos stages */
+#block4 {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.titre-3 {
+    margin-top: 20px;
+}
+
+.c-stage {
+    text-align: justify;
+}
+
+
+/* Nos actualite */
+
+#block-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    background-color: #fafafa;
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+/* SITE DE FOUINE 1 */
+
+* {
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    background-color: #343E48;
+}
+
+h1 {
+    text-align: center;
+    color: #FFF;
+}
+
+/* ---- Create Accordion --- */
+
+.accordion {
+    max-width: 1080px;
+    height: 250px;
+    display: flex;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+.tab {
+    position: relative;
+    width: 20%;
+    height: inherit;
+    padding: 20px;
+    background: #000;
+    color: #FFF;
+    cursor: pointer;
+    transition: width .5s ease;
+}
+
+.tab img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .5s ease;
+}
+
+.caption {
+    position: absolute;
+    z-index: 2;
+    white-space: nowrap;
+    top: 150px;
+    opacity: 0;
+}
+
+.caption h2 {
+    margin-bottom: 2px;
+    text-overflow: clip;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.caption p {
+    margin: 0;
+    font-family: 'Open Sans';
+    font-size: .9rem;
+}
+
+/* --- Hover Effects --- */
+
+.tab:hover img {
+    opacity: .6;
+}
+
+.tab:hover {
+    width: 80%;
+}
+
+.tab:hover .caption {
+    transition: all .5s ease;
+    opacity: 1;
+}
+
+/* Nos sites de fouines */
+.block-5 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 20px 0 20px 0;
+}
+
+.titre-4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.s-titre1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carte1 {
+    display: none;
+}
+
+/* footer */
+
+#footer {
+    background-color: #1b1b1b;
+    padding: 30px;
+    text-align: center;
+}
+
+.t-footer {
+    color: #FFF;
+}
+
+li:hover {
+    margin-left: 3px;
+    color: #461ff5;
+    cursor: pointer;
+}
+
+li {
+    color: #a0a287;
+    text-decoration: none;
+}
+
+h5{
+    text-align: initial;
+}
+
+img{
+    transition: transform 0.3s ease;
+}
+a{
+    text-decoration: none;
+    text-decoration-line: none;
+}
+img:hover{
+transform: scale(1.1);
+}
+#banner:hover{
+    transform: none;
+}
+@media (max-width: 764px) {
+    .carte1 {
+        display: contents;
+        margin-bottom: 30px;
+    }
+
+    .carte2 {
+        display: none;
+    }
+
+    #footer {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+}
